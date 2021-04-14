@@ -13,7 +13,7 @@ namespace Demo.Clip04
             IPackagedItem product = new TwoPack(bareBook);
 
             BookHandler dispatcher = new BookHandler();
-            IPackagedItem dispatchedProduct = dispatcher.AddAdversisingMaterialAndShip(product);
+            IPackagedItem dispatchedProduct = dispatcher.AddAdvertisingMaterialAndShip(product);
             
             BookHandler buyer = new BookHandler();
             buyer.ReceivePackage(dispatchedProduct);

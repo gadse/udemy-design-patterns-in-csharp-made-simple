@@ -6,16 +6,16 @@ namespace Demo.Clip04
 {
     class BookHandler
     {
-        public IPackagedItem AddAdversisingMaterialAndShip(IPackagedItem item)
+        public IPackagedItem AddAdvertisingMaterialAndShip(IPackagedItem item)
         {
             IPackagedItem combinedItem = new CDCasePack(item);
             Console.WriteLine(
                 $"Shipping {combinedItem.Item.GetType().Name} of size " +
                 $"{combinedItem.Item.GetDimensions()} to the customer."
             );
-            PackageForShipping package = new PackageForShipping(combinedItem);
+            IPackagedItem package = new PackageForShipping(combinedItem);
             Console.WriteLine(
-                $"The size of the complete packaged is {package.GetDimensions()}."
+                $"The size of the complete package is {package.GetDimensions()}."
             );
             return package;
         }
