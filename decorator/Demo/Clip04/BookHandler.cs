@@ -4,6 +4,9 @@ using Demo.Common;
 
 namespace Demo.Clip04
 {
+    /// <summary>
+    /// This represents someone who does things with books and book packages, like shipping and receiving them.
+    /// </summary>
     class BookHandler
     {
         public IPackagedItem AddAdvertisingMaterialAndShip(IPackagedItem item)

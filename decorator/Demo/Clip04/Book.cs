@@ -21,10 +21,6 @@ namespace Demo.Clip04
         {
         }
 
-        /// <summary>
-        /// Copy constructor
-        /// </summary>
-        /// <param name="other"></param>
         protected Book(Book other): base(other)
         {
         }

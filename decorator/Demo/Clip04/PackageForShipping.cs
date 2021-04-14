@@ -8,6 +8,9 @@ using Demo.Common;
 
 namespace Demo.Clip04
 {
+    /// <summary>
+    /// This decorator represents the packaging aspect of the given item.
+    /// </summary>
     class PackageForShipping: IPackagedItem
     {
         public IPackagedItem Item

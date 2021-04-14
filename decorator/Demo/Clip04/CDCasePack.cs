@@ -8,6 +8,10 @@ using Demo.Common;
 
 namespace Demo.Clip04
 {
+    /// <summary>
+    /// This represents a CD that's added to a book, maybe as part of an advertising deal
+    /// or some special offer.
+    /// </summary>
     class CDCasePack: IPackagedItem
     {
         public static Size SlimCdCase = new Size(

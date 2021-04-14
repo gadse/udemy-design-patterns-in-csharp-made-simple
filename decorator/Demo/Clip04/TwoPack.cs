@@ -2,6 +2,10 @@
 
 namespace Demo.Clip04
 {
+    /// <summary>
+    /// This is one of our basic products. Some books are offered as a pack of two.
+    /// This could be interesting for teachers. If not, well,... scold Zoran for this example. :D
+    /// </summary>
     class TwoPack : BaseProduct, IPackagedItem
     {
         public IPackagedItem Item

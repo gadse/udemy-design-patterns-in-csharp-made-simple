@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Demo.Common;
+﻿using Demo.Common;
 
 namespace Demo.Clip04
 {
+    /// <summary>
+    /// This class represents the basic state and behavior any of our products must exhibit.
+    /// </summary>
     abstract class BaseProduct
     {
         public string Title
